@@ -10,6 +10,10 @@ import org.springframework.security.core.userdetails.UserDetails;
 
 public class MyUser implements UserDetails {
 	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private User user;
 	
 	
